@@ -16,7 +16,14 @@ public class AuthServlet extends HttpServlet {
         String userEmail = req.getParameter("user_email");
         String userPassword = req.getParameter("user_password");
         String message = DbManager.auth(userEmail, userPassword);
-        req.setAttribute("message",message);
-        req.getRequestDispatcher(".jsp")
+//        req.setAttribute("message",message);
+//        req.getRequestDispatcher("auth.jsp").forward(req,resp);
+        if ("success".equals(message)) {
+            resp.sendRedirect("home.jsp");
+
+        } else {
+            req.setAttribute("message", message);
+            req.getRequestDispatcher("auth.jsp").forward(req,resp);
+        }
     }
 }

@@ -9,7 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="beebbdc2-3578-4079-87f0-02152b09e958" name="Changes" comment="test 1" />
+    <list default="true" id="beebbdc2-3578-4079-87f0-02152b09e958" name="Changes" comment="test 1">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c9ad8414-fa16-45b6-a475-5ef0efb9d5c7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c9ad8414-fa16-45b6-a475-5ef0efb9d5c7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/DbManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/DbManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servlets/AuthServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlets/AuthServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servlets/HomeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlets/HomeServlet.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -192,7 +199,9 @@
       <workItem from="1707397862598" duration="5949000" />
       <workItem from="1707403940380" duration="9000" />
       <workItem from="1707570035462" duration="445000" />
-      <workItem from="1707570501342" duration="5713000" />
+      <workItem from="1707570501342" duration="5979000" />
+      <workItem from="1707670144886" duration="8354000" />
+      <workItem from="1708013480966" duration="1236000" />
     </task>
     <task id="LOCAL-00001" summary="test 1">
       <option name="closed" value="true" />
@@ -202,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707576234300</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test 1">
+      <option name="closed" value="true" />
+      <created>1707576317477</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707576317477</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

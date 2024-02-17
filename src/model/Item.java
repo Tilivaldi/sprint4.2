@@ -15,6 +15,9 @@ public class Item {
         this.price = price;
     }
 
+    public Item(String name, String description, String price) {
+    }
+
     public Long getId() {
         return id;
     }

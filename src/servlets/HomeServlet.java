@@ -17,7 +17,9 @@ public class HomeServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         List<Item> items = DbManager.getItems();
         req.setAttribute("tovary",items);
-        req.getRequestDispatcher(".jsp").forward(req,resp);
+        req.getRequestDispatcher("home.jsp").forward(req,resp);
 
     }
+
+
 }

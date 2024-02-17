@@ -62,8 +62,8 @@ public class DbManager {
         User user = null;
         try {
             PreparedStatement statement = connection.prepareStatement(
-                    "select * from users" +
-                            "where EMAIL = ?"
+                    "select * from users " +
+                            "WHERE EMAIL = ?"
             );
             statement.setString(1,email);
             var resultSet = statement.executeQuery();
@@ -71,14 +71,15 @@ public class DbManager {
                 user = new User();
                 user.setId(resultSet.getLong("ID"));
                 user.setEmail(email);
-                user.setPassword(resultSet.getString("password"));
+                user.setPassword(resultSet.getString("PASSWORD"));
                 user.setFullName(resultSet.getString("FULL_NAME"));
             }
-
+            statement.close();
         } catch (Exception e){
             e.printStackTrace();
         }
-
+        return user;
     }
+
 
 }
